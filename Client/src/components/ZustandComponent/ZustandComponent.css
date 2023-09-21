@@ -1,54 +1,54 @@
 /* ZustandComponent.css */
 
-/* Estilos para el contenedor principal */
+
 .zustand-container {
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-  }
-  
-  /* Estilos para el texto de conteo */
-  .count-text {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  /* Estilos para el contenedor de botones */
-  .button-container {
-    margin-top: 10px;
-  }
-  
-  /* Estilos para los botones de incremento y decremento */
-  .increment-button,
-  .decrement-button {
-    padding: 10px 20px;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 5px;
-    cursor: pointer;
-  }
-  
-  .increment-button {
-    background-color: #4caf50; /* Color de fondo para el botón de incremento */
-    color: #fff; /* Color de texto para el botón de incremento */
-    border: none;
-  }
-  
-  .increment-button:hover {
-    background-color: #45a049; /* Cambio de color al pasar el cursor sobre el botón de incremento */
-  }
-  
-  .decrement-button {
-    background-color: #f44336; /* Color de fondo para el botón de decremento */
-    color: #fff; /* Color de texto para el botón de decremento */
-    border: none;
-  }
-  
-  .decrement-button:hover {
-    background-color: #d32f2f; /* Cambio de color al pasar el cursor sobre el botón de decremento */
-  }
-  
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color:#E5E7EB;
+}
+
+/* Estilos para el texto de conteo */
+.count-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Estilos para el contenedor de botones */
+.button-container {
+  margin-top: 10px;
+}
+
+/* Estilos para los botones de incremento y decremento */
+.increment-button,
+.decrement-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.increment-button {
+  background-color: #4caf50; /* Color de fondo para el botón de incremento */
+  color: #fff; /* Color de texto para el botón de incremento */
+  border: none;
+}
+
+.increment-button:hover {
+  background-color: #45a049; /* Cambio de color al pasar el cursor sobre el botón de incremento */
+}
+
+.decrement-button {
+  background-color: #f44336; /* Color de fondo para el botón de decremento */
+  color: #fff; /* Color de texto para el botón de decremento */
+  border: none;
+}
+
+.decrement-button:hover {
+  background-color: #d32f2f; /* Cambio de color al pasar el cursor sobre el botón de decremento */
+}

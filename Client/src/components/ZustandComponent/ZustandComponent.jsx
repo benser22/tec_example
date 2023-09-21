@@ -1,13 +1,8 @@
 import React from 'react';
-import { create } from 'zustand';
-
+import useStore from '../ZustandStore/useStore';
 import './ZustandComponent.css';
 
-const useStore = create((set) => ({
-  count: 0,
-  increment: () => set((state) => ({ count: state.count + 1 })),
-  decrement: () => set((state) => ({ count: state.count - 1 })),
-}));
+
 
 function ZustandComponent() {
   const { count, increment, decrement } = useStore();

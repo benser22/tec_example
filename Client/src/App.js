@@ -8,7 +8,7 @@ function App() {
   const personData = {
     name: "Lionel Messi",
     age: 36,
-    profession: "Soccer Player",
+    profession: "Jugador de fútbol",
     imageUrl:
       "https://www.baenegocios.com/__export/1672861507442/sites/cronica/img/2023/01/04/messi_copa_del_mundo_1.jpg_623324087.jpg",
   };
