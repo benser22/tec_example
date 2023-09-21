@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es6",                          // O la versión de ECMAScript que prefieras
+      "module": "commonjs",
+      "strict": true,                           // Activa todas las opciones de tipo estricto
+      "jsx": "react",                           // Si estás usando React
+      "esModuleInterop": true,                  // Habilita la interoperabilidad con módulos comunes
+      "skipLibCheck": true,                     // Opcional: Evita la comprobación de librerías de tipo
+      "forceConsistentCasingInFileNames": true,  // Comprueba el casing de los nombres de archivo
+      "outDir": "./dist",                       // Directorio de salida para los archivos compilados
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx"], // Patrón para incluir archivos TypeScript/JSX
+    "exclude": ["node_modules"]                 // Directorio a excluir
+  }
+  
