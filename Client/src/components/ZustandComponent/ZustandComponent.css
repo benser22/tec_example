@@ -60,3 +60,29 @@
 .decrement-button:hover {
   background-color: #d32f2f; /* Cambio de color al pasar el cursor sobre el botón de decremento */
 }
+
+
+/* Añadir una transición suave */
+/* Estilos para el botón de reset */
+.reset-button {
+  background-color: #afafaf;
+  border: 1px groove black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  margin-left: 75%;
+  padding: 5px 10px;
+  border-radius: 8px;
+  transition: background-color 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+
+/* Efecto hover */
+.reset-button:hover {
+  background-color: #9c9a9a;
+}
+
+.reset-button:active {
+  background-color: #515151;
+  transform: scale(0.98);
+}
+

@@ -42,7 +42,7 @@ function MaterialUIComponent() {
 
   return (
     <ThemeProvider theme={theme}>
-      <div style={{ maxWidth: "400px", margin: "0 auto" }}>
+      <div style={{ maxWidth: "400px", margin: "0 auto", padding:"2vh" }}>
         <h1
           style={{
             fontSize: "2em",
@@ -57,7 +57,7 @@ function MaterialUIComponent() {
           variant="outlined"
           value={text}
           onChange={handleTextChange}
-          style={{ marginBottom: "16px", width: "100%" }}
+          style={{ marginBottom: "16px", width: "100%", fontSize:"1em" }}
         />
         <Button variant="contained" color="primary" style={{ width: "100%" }}>
           Material-UI Button

@@ -36,8 +36,8 @@ const TypeScriptComponent: React.FC<Props> = ({ people, showDetails }) => {
       </h1>
       <div className="row justify-content-center">
         {people.map((person, index) => (
-          <div className="col-md-4" key={index}>
-            <div className="card" style={{ width: "18rem" }}>
+          <div className="col-md-4 mt-3" key={index}>
+            <div className="card mx-auto" style={{ width: "18rem" }}>
               <img
                 src={person.imageUrl}
                 alt={person.name}
