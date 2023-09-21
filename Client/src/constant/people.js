@@ -7,17 +7,17 @@ export const personData = [
       "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F0130%2Fr1124382_1296x729_16%2D9.jpg",
   },
   {
-    name: "Roger Federer",
-    age: 42,
-    profession: "Jugador de Tennis",
+    name: "Alan Turing",
+    age: 41,
+    profession: "Matemático",
     imageUrl:
-      "https://s1.ppllstatics.com/elcorreo/www/multimedia/201906/23/media/cortadas/federer-kSf-U805939037765gF-1248x770@RC.jpg",
+      "https://www.tekcrispy.com/wp-content/uploads/2020/05/alanturing2-1200x800-1.jpg",
   },
   {
     name: "Jennifer Aniston",
     age: 54,
     profession: "Actriz",
     imageUrl:
-      "https://media.glamour.mx/photos/6482781baf12f5514d13a253/16:9/w_2560%2Cc_limit/jenn_aniston.jpg",
-  }
+      "https://static.sky.it/editorialimages/4b38e743ee9836d0a33cb405470cd51bce4cde1a/skytg24/it/spettacolo/2022/09/29/jennifer-aniston-segreti-beauty/aniston-g.jpg",
+  },
 ];

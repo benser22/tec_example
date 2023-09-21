@@ -1,5 +1,3 @@
-/* ZustandComponent.css */
-
 .zustand-container {
   text-align: center;
   margin: 20px;
@@ -18,19 +16,16 @@
   font-weight: bold;
 }
 
-/* Estilos para el texto de conteo */
 .count-text {
   font-size: 24px;
   font-weight: bold;
   color: #333;
 }
 
-/* Estilos para el contenedor de botones */
 .button-container {
   margin-top: 10px;
 }
 
-/* Estilos para los botones de incremento y decremento */
 .increment-button,
 .decrement-button {
   padding: 10px 20px;
@@ -42,47 +37,45 @@
 }
 
 .increment-button {
-  background-color: #4caf50; /* Color de fondo para el botón de incremento */
-  color: #fff; /* Color de texto para el botón de incremento */
+  background-color: #4caf50; 
+  color: #fff; 
   border: none;
 }
 
 .increment-button:hover {
-  background-color: #45a049; /* Cambio de color al pasar el cursor sobre el botón de incremento */
+  background-color: #45a049; 
 }
 
 .decrement-button {
-  background-color: #f44336; /* Color de fondo para el botón de decremento */
-  color: #fff; /* Color de texto para el botón de decremento */
+  background-color: #f44336; 
+  color: #fff; 
   border: none;
 }
 
 .decrement-button:hover {
-  background-color: #d32f2f; /* Cambio de color al pasar el cursor sobre el botón de decremento */
+  background-color: #d32f2f; 
 }
 
 
-/* Añadir una transición suave */
-/* Estilos para el botón de reset */
 .reset-button {
   background-color: #afafaf;
-  border: 1px groove black;
+  border: 1px groove rgb(255, 255, 255);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(0, 0, 0);
-  font-size: 12px;
+  font-size: 1em;
   margin-left: 75%;
   padding: 5px 10px;
   border-radius: 8px;
-  transition: background-color 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
-/* Efecto hover */
 .reset-button:hover {
   background-color: #9c9a9a;
 }
 
 .reset-button:active {
-  background-color: #515151;
+  border: 1px groove rgb(0, 0, 0);
+  background-color: #8a8a8a;
   transform: scale(0.98);
 }
 

@@ -22,9 +22,11 @@ function ZustandComponent() {
         <button className="decrement-button" onClick={decrement}>
           Decrement
         </button>
-        <button className="reset-button" onClick={resetLocalStorage}>
-          Reset Local Storage
-        </button>
+        <div>
+          <button className="reset-button" onClick={resetLocalStorage}>
+            Reset
+          </button>
+        </div>
       </div>
     </div>
   );
