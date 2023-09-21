@@ -1,6 +1,5 @@
 /* ZustandComponent.css */
 
-
 .zustand-container {
   text-align: center;
   margin: 20px;
@@ -8,6 +7,15 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color:#E5E7EB;
+}
+
+.zustand-title {
+  color: rgb(52, 54, 137);
+  font-size: 2rem; 
+  text-align: center; 
+  margin-bottom: 20px; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
 }
 
 /* Estilos para el texto de conteo */

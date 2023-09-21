@@ -3,15 +3,9 @@ import MaterialUIComponent from "./components/MaterialUIComponent/MaterialUIComp
 import TailwindComponent from "./components/TailwindComponent/TailwindComponent";
 import TypeScriptComponent from "./components/TypeScriptComponent/TypeScriptComponent";
 import ZustandComponent from "./components/ZustandComponent/ZustandComponent";
+import { personData } from "./constant/people";
 
 function App() {
-  const personData = {
-    name: "Lionel Messi",
-    age: 36,
-    profession: "Jugador de fútbol",
-    imageUrl:
-      "https://www.baenegocios.com/__export/1672861507442/sites/cronica/img/2023/01/04/messi_copa_del_mundo_1.jpg_623324087.jpg",
-  };
 
   return (
     <div className="App">
@@ -27,7 +21,7 @@ function App() {
         <hr></hr>
         <TypeScriptComponent
           text="Componente de TypeScript"
-          person={personData}
+          people={personData}
           showDetails={true}
         />
       </div>

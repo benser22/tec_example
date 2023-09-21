@@ -43,8 +43,13 @@ function MaterialUIComponent() {
   return (
     <ThemeProvider theme={theme}>
       <div style={{ maxWidth: "400px", margin: "0 auto" }}>
-        {/* Aplica el color secundario del tema al h1 */}
-        <h1 style={{ fontSize: "2em", color: theme.palette.secondary.main }}>
+        <h1
+          style={{
+            fontSize: "2em",
+            color: theme.palette.secondary.main,
+            fontWeight: "bold",
+          }}
+        >
           Material UI
         </h1>
         <TextField
