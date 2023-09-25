@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "sweetalert2/dist/sweetalert2.min.css"; // Importa los estilos de SweetAlert2
 import toast, { Toaster } from "react-hot-toast";
 import Swal from "sweetalert2";
